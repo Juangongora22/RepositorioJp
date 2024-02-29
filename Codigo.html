@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Tecnico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            background-color: #f70a0a;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: rgb(243, 11, 11);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Servicio Técnico</h1>
+    </header>
+    <nav>
+        <a href="#contacto">Contacto</a>
+        <a href="#chat">Chat en línea</a>
+        <a href="#llamada">Llamada telefónica</a>
+    </nav>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puede ponerse en contacto con nuestro servicio técnico a través del siguiente formulario:</p>
+        <form action="#" method="post">
+            <!-- Agrega aquí los campos del formulario según tus necesidades -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section id="chat">
+        <h2>Chat en línea</h2>
+        <p>Converse con uno de nuestros representantes en tiempo real:</p>
+        <!-- Puedes integrar un sistema de chat en línea aquí -->
+    </section>
+    <section id="llamada">
+        <h2>Llamada telefónica</h2>
+        <p>Si prefiere la comunicación telefónica, llámenos al siguiente número:</p>
+        <p>Número de contacto: <strong>(+57 3137370399)</strong></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Servicio Técnico</p>
+    </footer>
+</body>
+</html>
